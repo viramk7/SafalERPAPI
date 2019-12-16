@@ -13,5 +13,7 @@ namespace SafalERP.Entities.DbContexts
 
         }
         public DbSet<Student> Students { get; set; }
+
+        public DbQuery<GetTest> GetTest { get; set; }
     }
 }

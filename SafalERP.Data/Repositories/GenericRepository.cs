@@ -13,7 +13,7 @@ namespace SafalERP.Data.Repositories
     {
         #region Fields
 
-        protected readonly SafalERPDBContext _context;
+        private readonly SafalERPDBContext _context;
 
         private DbSet<TEntity> _entities;
 

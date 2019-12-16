@@ -9,7 +9,9 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using SafalERP.API.Core.Extensions;
+using SafalERP.Data.Repositories.Procedure;
 using SafalERP.Entities.DbContexts;
+using SafalERP.Services.Test;
 
 namespace SafalERP.API
 {
@@ -25,6 +27,10 @@ namespace SafalERP.API
         // For more information on how to configure your application, visit https://go.microsoft.com/fwlink/?LinkID=398940
         public void ConfigureServices(IServiceCollection services)
         {
+            
+            services.AddTransient<IProcedureRepository, ProcedureRepository>();
+            services.AddTransient<ITestService, TestService>();
+
             //Add DB refrence
             services.AddDbContext<SafalERPDBContext>(options =>
             options.UseSqlServer(Configuration.GetConnectionString("SafalERPDB")));

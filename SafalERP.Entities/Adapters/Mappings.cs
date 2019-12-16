@@ -15,6 +15,8 @@ namespace SafalERP.Entities.Adapters
             CreateMap<AddStudentInputDto, Student>().ReverseMap();
             CreateMap<StudentOutputDto, Student>().ReverseMap();
             CreateMap<UpdateStudentInputDto, Student>().ReverseMap();
+            CreateMap<TestOutputDto, GetTest>().ReverseMap();
+            CreateMap<List<TestOutputDto>, List<GetTest>>().ReverseMap();
         }
     }
 }
