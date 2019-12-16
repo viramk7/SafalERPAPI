@@ -1,0 +1,12 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SafalERP.Data\SafalERP.Data.csproj" />
+    <ProjectReference Include="..\SafalERP.Entities\SafalERP.Entities.csproj" />
+  </ItemGroup>
+
+</Project>

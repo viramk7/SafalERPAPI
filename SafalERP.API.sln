@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29509.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SafalERP.API", "SafalERP.API\SafalERP.API.csproj", "{51DE2E41-D5E7-4AF0-8DC4-EA9D84F30624}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SafalERP.Data", "SafalERP.Data\SafalERP.Data.csproj", "{FF714410-EC06-45BD-9700-2684DB42E083}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SafalERP.Entities", "SafalERP.Entities\SafalERP.Entities.csproj", "{C17CDA20-7CF2-4801-BDCC-61E98113597C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SafalERP.Services", "SafalERP.Services\SafalERP.Services.csproj", "{1C272E29-EF1B-48C2-83E0-A3A8518A308D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{51DE2E41-D5E7-4AF0-8DC4-EA9D84F30624}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51DE2E41-D5E7-4AF0-8DC4-EA9D84F30624}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51DE2E41-D5E7-4AF0-8DC4-EA9D84F30624}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51DE2E41-D5E7-4AF0-8DC4-EA9D84F30624}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FF714410-EC06-45BD-9700-2684DB42E083}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF714410-EC06-45BD-9700-2684DB42E083}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF714410-EC06-45BD-9700-2684DB42E083}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF714410-EC06-45BD-9700-2684DB42E083}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C17CDA20-7CF2-4801-BDCC-61E98113597C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C17CDA20-7CF2-4801-BDCC-61E98113597C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C17CDA20-7CF2-4801-BDCC-61E98113597C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C17CDA20-7CF2-4801-BDCC-61E98113597C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1C272E29-EF1B-48C2-83E0-A3A8518A308D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C272E29-EF1B-48C2-83E0-A3A8518A308D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C272E29-EF1B-48C2-83E0-A3A8518A308D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C272E29-EF1B-48C2-83E0-A3A8518A308D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FCB9AB81-AC5F-45BA-B440-A7816410528A}
+	EndGlobalSection
+EndGlobal
